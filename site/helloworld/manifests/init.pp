@@ -1,4 +1,4 @@
 class helloworld {
-  notify { "Hello World!": message => "I am in the ${environment} environment" }
+  notify { "Hello World!": message => "Lakhbir  in the ${environment} environment" }
 }
 
