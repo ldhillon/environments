@@ -2,7 +2,7 @@ node default {
    include helloworld
 }
 
-node puppetmaster.davita.corp {
+node puppetmaster {
   class { '::mcollective':
     middleware   => true,
     client       => true,
